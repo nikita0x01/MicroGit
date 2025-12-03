@@ -1,0 +1,153 @@
+.login-wrapper {
+  color: #f1f6fd;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+  background-color: #0c1116;
+}
+
+.login-logo-container {
+  padding: 40px 0px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-login {
+  width: 48px;
+  height: 48px;
+}
+
+.login-box-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-box {
+  padding: 20px;
+  width: 364px;
+  min-height: 300px;
+  border-radius: 10px;
+  background-color: #161a23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-box h2 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: 300;
+  color: #f1f6fd;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 250px;
+  height: 35px;
+  background-color: #0c1116;
+  border-radius: 5px;
+  padding: 0 1rem;
+  border: 0.5px solid #f1f6fd;
+  font-size: 1rem;
+  color: whitesmoke;
+  transition: border-color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    background 0.2s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #f1f6fd;
+  width: 250px;
+  text-align: left;
+  transition: color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+
+.input:hover,
+.input:focus {
+  border-color: #58a6ff;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #238636;
+  border: none;
+  width: 250px;
+  border-radius: 5px;
+  height: 35px;
+  color: #f1f6fd;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #2ea043;
+}
+
+.pass-box {
+  width: 364px;
+  padding: 20px;
+  border: 1px solid #3d3d3d;
+  border-radius: 10px;
+  text-align: center;
+  color: #f1f6fd;
+  font-size: 0.9rem;
+}
+
+.pass-box a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.pass-box a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password {
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) {
+  .login-box {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .input, .submit-btn {
+    width: 90%;
+  }
+
+  .pass-box {
+    width: 90%;
+  }
+  
+  .label {
+    width: 90%;
+  }
+}
