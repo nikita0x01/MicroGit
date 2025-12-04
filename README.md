@@ -95,6 +95,22 @@ Unit tests created using Jest for:
 
 ---
 
+## Project Structure
+
+project-name/
+│── folder1/
+│   ├── file1.js
+│   └── file2.js
+│
+│── folder2/
+│   └── nested/
+│       └── file3.js
+│
+├── package.json
+└── README.md
+
+---
+
 ## How to Run Locally
 
 ```bash
