@@ -97,103 +97,31 @@ Unit tests created using Jest for:
 
 ## Project Structure
 
-MicroGit/
-│
-├── Backend/
-│   │
-│   ├── config/
-│   │   └── config.js
-│   │
-│   ├── controllers/
-│   │   ├── add.js
-│   │   ├── commit.js
-│   │   ├── init.js
-│   │   ├── issueController.js
-│   │   ├── pull.js
-│   │   ├── push.js
-│   │   ├── repoController.js
-│   │   ├── revert.js
-│   │   └── userController.js
-│   │
-│   ├── middleware/
-│   │   ├── authMiddleware.js
-│   │   └── authorizeMiddleware.js
-│   │
-│   ├── models/
-│   │   ├── issueModel.js
-│   │   ├── repoModel.js
-│   │   └── userModel.js
-│   │
-│   ├── routes/
-│   │   └── (your route files)
-│   │
-│   ├── node_modules/
-│   ├── .env
-│   └── index.js
-│
-│
-├── Frontend/
-│   │
-│   ├── public/
-│   │   └── vite.svg
-│   │
-│   ├── src/
-│   │   │
-│   │   ├── assets/
-│   │   │   ├── github-mark-white.svg
-│   │   │   └── react.svg
-│   │   │
-│   │   ├── components/
-│   │   │   ├── auth/
-│   │   │   │   ├── auth.css
-│   │   │   │   ├── Login.jsx
-│   │   │   │   └── Signup.jsx
-│   │   │   │
-│   │   │   ├── dashboard/
-│   │   │   │   ├── dashboard.css
-│   │   │   │   ├── dashboard-enhanced.css
-│   │   │   │   ├── Dashboard.jsx
-│   │   │   │   └── DashboardEnhanced.jsx
-│   │   │   │
-│   │   │   ├── issue/
-│   │   │       ├── issues-enhanced.css
-│   │   │       └── IssuesEnhanced.jsx
-│   │   │   
-│   │   │   
-│   │   │       
-│   │   │       
-│   │   │
-│   │   ├── pages/
-│   │   │   ├── Login/
-│   │   │   │   ├── auth.css
-│   │   │   │   └── Login.jsx
-│   │   │   │
-│   │   │   ├── Overview/
-│   │   │   │   ├── Overview.css
-│   │   │   │   └── Overview.jsx
-│   │   │   │
-│   │   │   ├── Profile/
-│   │   │      ├── Profile.css
-│   │   │      └── Profile.jsx
-│   │   │   
-│   │   │   
-│   │   │      
-│   │   │
-│   │   ├── styles/
-│   │   │   └── App.css
-│   │   │
-│   │   ├── App.jsx
-│   │   ├── authContext.jsx
-│   │   ├── index.css
-│   │   ├── main.jsx
-│   │   └── Routes.jsx
-│   │
-│   ├── .gitignore
-│   └── package.json
-│
-└── README.md
+## Project Structure
 
----
+```
+microgit/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── middlewares/
+│   │   └── utils/
+│   ├── tests/
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   └── services/
+│   ├── vite.config.js
+│   └── package.json
+└── README.md
+```
 
 ## How to Run Locally
 
