@@ -50,9 +50,10 @@
 <img width="984" height="551" alt="image" src="https://github.com/user-attachments/assets/6563e211-9278-4177-85f9-e53315fcbd71" />
 <br><br>
 
-### pull all chnages from S3
+### pull all changes from S3
 <img width="1095" height="550" alt="Screenshot 2026-04-24 181500" src="https://github.com/user-attachments/assets/2a3ec9fb-9205-4235-b958-4fbbc8a44ce2" />
 <br><br>
+
 ### revert to specific commit
 <img width="1202" height="464" alt="Screenshot 2026-04-24 182511" src="https://github.com/user-attachments/assets/578ba6fd-3df9-443c-84b8-b62bfa66c785" />
 <br><br>
