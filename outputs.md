@@ -27,11 +27,18 @@
 ### init and add commands using yargs
 <img width="1151" height="561" alt="Screenshot 2026-04-24 174737" src="https://github.com/user-attachments/assets/504afa89-3f04-44bc-9faa-87d01101cd31" />
 
+
 ### commit changes
 <img width="1588" height="244" alt="Screenshot 2026-04-24 175642" src="https://github.com/user-attachments/assets/82bdff43-d1db-4e6a-8395-6c1640b27ed3" />
 
+
 ### push changes to AWS S3 Bucket
 <img width="1675" height="469" alt="Screenshot 2026-04-24 180850" src="https://github.com/user-attachments/assets/5ebed493-2af6-485a-bde7-3e48e7c4a87e" />
+
+
+### Saved Commits in S3 Bucket
+<img width="984" height="551" alt="image" src="https://github.com/user-attachments/assets/6563e211-9278-4177-85f9-e53315fcbd71" />
+
 
 ### pull all chnages from S3
 <img width="1095" height="550" alt="Screenshot 2026-04-24 181500" src="https://github.com/user-attachments/assets/2a3ec9fb-9205-4235-b958-4fbbc8a44ce2" />
