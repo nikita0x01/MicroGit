@@ -141,3 +141,11 @@ npm start
 cd ../client
 npm install
 npm start
+
+# To run Backend
+cd Backend
+npm start start OR npm index.js start
+
+# To run Frontend
+cd Frontend
+npm run dev
