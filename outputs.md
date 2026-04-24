@@ -19,3 +19,5 @@
 ### Issues
 <img width="1858" height="820" alt="image" src="https://github.com/user-attachments/assets/d90283a7-7946-4795-9b2f-840d74d17902" />
 
+### Profile
+<img width="1873" height="823" alt="image" src="https://github.com/user-attachments/assets/655229a2-e859-4351-a29e-61a1f0847ed5" />
